@@ -1,0 +1,14 @@
+
+### Comandos basicos bash
+|Comando |Explicación|
+|:--- | :----|
+|1.Git status|Nos permite ver en que situación área de trabajo se encuentran nuestros ficheros| 
+|2.Git commit| Una vez tenemos los ficheros preparados en el staging area. Ya podemos realizar el envío al repositorio local| 
+|3.Git log| Nos permite visualizar un historial con los distintos commits que hemos realizado. | 
+|4.Git push| Nos permite subir los cambios a un repositorio remoto. |
+|5.Git pull| Ahora que el repositorio está en la nube, (en el caso de trabajar con varias personas) es posible que algún compañero que tenga permisos realicé un modificación en el código del proyecto y realicé una subida. Lo que puede suponer que nuestro repositorio no este actualizado. Nosotros lo vamos a hacer de una forma poco elegante directamente desde Git para ver lo que hace git pull. |
+|6.Git clone| Otra manera de trabajar con un proyecto, es directamente clonando el repositorio. Inclusive muchos desarrolladores cuando empiezan un proyecto desde 0 suelen crear el repositorio en GitHub y posteriormente clonarlo ya que estará listo para trabajar con él. | 
+|7.Git init|Hacer ese fichero un repositorio|
+|8.git add| Subir ese fichero|
+|9.git remote -v| Ver si esta el enlace puesto|
+|10. git remote add origin ''enlace''|Asignar el enlace al repositorio|
