@@ -1,0 +1,14 @@
+
+### Proceso
+1. Hariamos una carpeta haciendo mkdir y asignandole un nombre, después usariamos __''git init''__ y esta carpeta seria un repositorio.
+---
+2. Hariamos dos ficheros dentro de esta carpeta y desde bash usariamos __''git status''__ para ver estos, luego hariamos __''git add (nombre de fichero)''__.
+---
+3. Hacemos __''git commit -m (nombre de commit entre comillas)''__ y hacemos git log para ver que esta bien subido.
+---
+4. Creamos desde github un repositorio y entonces en bash lo conectamos con los cmds: __''git remote add (enlace de git hub)''__ seguido del comando __''git branch -M main''__ y el comando __''git push -u origin main''__.
+---
+5. Comprobamos que estemos bien autentificados con __''git remote -v''__.
+---
+6. Ahora ya lo tenemos subido pero si hacemos subidas desde git hub tenemos que usar el comando __''git pull''__ para refrescar el historial en bash.
+---
